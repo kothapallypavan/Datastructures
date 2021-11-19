@@ -4,8 +4,8 @@
 //create struct node and install variables
 struct node
 {
-int data;
-struct node *next;
+    int data;
+    struct node *next;
 }*m,*first=NULL,*last,*n,*prev,*temp;
 
 //---------------INSERT FUNCTIONS---------------------//
@@ -46,7 +46,7 @@ void insert_begin()
 //insert a value at end
 void insert_end()
 {
-      int x;
+    int x;
     printf("enter a value : ");
     scanf("%d",&x);
     n=(struct node*)malloc(sizeof(struct node));
@@ -151,7 +151,7 @@ void delete_end(){
 //delete a element
 void delete_element(){
     int r;
-    printf("Enter value : ")
+    printf("Enter value : ");
     scanf("%d",&r);
     if(first==NULL){
         printf("List is empty\n");

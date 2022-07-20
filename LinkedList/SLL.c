@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//create struct node and install variables
+//create struct node and assign variables
 struct node
 {
     int data;
@@ -56,7 +56,7 @@ void insert_end()
     last=n;
 }
 
-//insert a value before a element
+//insert a value before an element
 void insert_before()
 {
       int x,key;
@@ -148,7 +148,7 @@ void delete_end(){
         free(m);
     }
 }
-//delete a element
+//delete an element
 void delete_element(){
     int r;
     printf("Enter value : ");
